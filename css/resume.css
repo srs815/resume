@@ -1,0 +1,558 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/montserrat/Montserrat-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/montserrat/Montserrat-Light.otf');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+@media screen and (min-width: 901px) { /********************************************************************************** 1400 */
+
+body
+{
+	margin: 0 auto;
+	background-color: white;
+}
+
+#fifth_nav
+{
+	color:blue;
+}
+
+#resume_left_column
+{
+	margin-top: -320px;
+}
+
+#resume_left_column img
+{
+	padding-left: 15px;
+}
+
+.resume_dates
+{
+	font-family:'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: .9em;
+	color: #555;
+	width:100%;
+	line-height: 26px;
+	font-style: italic;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.push_dates{
+	margin-top: 30px;
+}
+
+.resume_text
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width:100%;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_bullets
+{
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width:100%;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#experience_title, #skills_title, #honors_title, #activities_title
+{
+	margin-top: 30px;
+}
+
+.skills_padding
+{
+	margin-top: 10px;
+}
+
+#resume_left_column
+{
+	margin-top: -270px;
+}
+
+.resume-column{
+	max-width: 100%;
+	margin:0 auto;
+    padding-bottom: 40px;
+}
+
+a {
+    color: #F60;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F90;
+    transition: 0.4s;
+}
+
+ a:active {
+    color: #F30;
+    transition: 0s;
+}
+}
+
+@media screen and (max-width: 900px) { /********************************************************************************** 900 */
+
+body
+{
+	margin: 0 auto;
+	background-color: white;
+}
+
+#fifth_nav
+{
+	color:blue;
+}
+
+#resume_left_column
+{
+	margin-top: -320px;
+}
+
+#resume_left_column img
+{
+	padding-left: 15px;
+}
+
+.resume_dates
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: .9em;
+	color: #555;
+	width:100%;
+	line-height: 26px;
+	font-style: italic;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_text
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width:100%;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_bullets
+{
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width:100%;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#experience_title, #skills_title, #honors_title, #activities_title
+{
+	margin-top: 30px;
+}
+
+#skills_textTwo, #skills_textThree
+{
+	margin-top: 10px;
+}
+
+#resume_left_column
+{
+	margin-top: -270px;
+}
+
+.resume-column{
+	max-width: 100%;
+	margin:0 auto;
+    padding-bottom: 40px;
+}
+
+a {
+    color: #F60;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F90;
+    transition: 0.4s;
+}
+
+ a:active {
+    color: #F30;
+    transition: 0s;
+}
+
+}
+
+@media screen and (max-width: 650px) { /********************************************************************************** 650 */
+
+.nav{
+    margin-top: 0px;
+}
+
+body
+{
+	margin: 0 auto;
+	background-color: white;
+}
+
+.nav_mobile
+{
+	visibility: visible;
+	background-color: white;
+	list-style-type: none;
+}
+
+#fifth_nav
+{
+	color:blue;
+}
+
+#resume_left_column
+{
+	margin-top: -320px;
+}
+
+.resume_dates
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: .9em;
+	color: #555;
+	width:100%;
+	line-height: 26px;
+	font-style: italic;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_text
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width: 350px;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_bullets
+{
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width: 350px;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#resume_bulletsOne, #resume_bulletsTwo, #resume_bulletsThree
+{
+	 margin-top: 20px;
+}
+
+#experience_title, #skills_title, #honors_title, #activities_title
+{
+	margin-top: 30px;
+}
+
+#skills_textTwo, #skills_textThree
+{
+	margin-top: 10px;
+}
+
+#resume_left_column
+{
+	margin-top: 50px;
+}
+
+#resume_left_column img
+{
+	width: 100%;
+	height: 150px;
+}
+
+.resume-column{
+	margin:0 auto;
+	padding: 0px 25px 0px 25px;
+    padding-bottom: 40px;
+}
+a {
+    color: #F60;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F90;
+    transition: 0.4s;
+}
+}
+
+@media screen and (max-width: 480px) { /********************************************************************************** 480 */
+
+body
+{
+	margin: 0 auto;
+	background-color: white;
+}
+
+.wrapper
+{
+	height: auto;
+	width:100%;
+}
+
+.nav_mobile
+{
+	visibility: visible;
+	background-color: white;
+	list-style-type: none;
+}
+
+#fifth_nav
+{
+	color:blue;
+}
+
+#resume_left_column
+{
+	margin-top: -320px;
+}
+
+.resume_dates
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: .9em;
+	color: #555;
+	width:100%;
+	line-height: 26px;
+	font-style: italic;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_text
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width: 350px;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_bullets
+{
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width: 350px;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#resume_bulletsOne, #resume_bulletsTwo, #resume_bulletsThree
+{
+	 margin-top: 20px;
+}
+
+#experience_title, #skills_title, #honors_title, #activities_title
+{
+	margin-top: 30px;
+}
+
+#skills_textTwo, #skills_textThree
+{
+	margin-top: 10px;
+}
+
+#resume_left_column
+{
+	margin-top: 50px;
+}
+
+#resume_left_column img
+{
+	width: 100%;
+	height: 150px;
+}
+
+.resume-column{
+	margin:0 auto;
+	padding: 0px 25px 0px 25px;
+    padding-bottom: 40px;
+}
+a {
+    color: #F60;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F90;
+    transition: 0.4s;
+}
+}
+
+@media screen and (max-width: 380px) { /********************************************************************************** 480 */
+
+body
+{
+	margin: 0 auto;
+	background-color: white;
+}
+
+.wrapper
+{
+	height: auto;
+	width:100%;
+}
+
+.nav_mobile
+{
+	visibility: visible;
+	background-color: white;
+	list-style-type: none;
+}
+
+#fifth_nav
+{
+	color:blue;
+}
+
+#resume_left_column
+{
+	margin-top: -320px;
+}
+
+.resume_dates
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: .9em;
+	color: #555;
+	width: 280px;
+	line-height: 26px;
+	font-style: italic;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_text
+{
+	margin-top: 0px;
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width: 250px;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.resume_bullets
+{
+	font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 1em;
+	color: #555;
+	width: 250px;
+	line-height: 27px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#resume_bulletsOne, #resume_bulletsTwo, #resume_bulletsThree
+{
+	 margin-top: 20px;
+}
+
+#experience_title, #skills_title, #honors_title, #activities_title
+{
+	margin-top: 30px;
+}
+
+#skills_textTwo, #skills_textThree
+{
+	margin-top: 10px;
+}
+
+#resume_left_column
+{
+	margin-top: 50px;
+}
+
+#resume_left_column img
+{
+	width: 100%;
+	height: 110px;
+}
+
+.resume-column{
+	margin:0 auto;
+	padding: 0px 25px 0px 25px;
+    padding-bottom: 40px;
+}
+a {
+    color: #F60;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F90;
+    transition: 0.4s;
+}
+}
