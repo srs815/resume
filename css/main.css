@@ -424,7 +424,7 @@ str{
 /********************* Add some Padding to things *****************/
 
 .ul_padLeft{
-	padding-left:13px;
+	padding: 0px 13px;
 }
 
 .padTop{
