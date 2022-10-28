@@ -425,6 +425,7 @@ str{
 
 .ul_padLeft{
 	padding: 0px 13px;
+	box-sizing: border-box;
 }
 
 .padTop{
