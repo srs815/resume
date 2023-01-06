@@ -1,0 +1,387 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Steven Simon",
+    "label": "Marketing Developer at Wiley",
+    "image": "",
+    "email": "stevenraysimon@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "I am a designer and technologist that strives to create beautiful and delightful experiences across a variety of media and platforms. My experience includes designing and developing web, digital, and physical technologies that trigger emotion through an invitation to interact. My skills include:\n\nInteraction Design, UX Research, UI Design, Wireframing, Visual Communication Design, Responsive Web Design, Motion Design, Visual Design, Physical Computing, Rapid Prototyping, Frontend Development, Scripting\n\nUser Research: \nA/B Testing, Affinity Diagramming, Heuristic Evaluation, Personas, Storyboarding, Site mapping, User Journey Mapping, Usability Testing, Wireframing, Competitive Analysis\n\nDesign:\nXD, Figma, Sketch, InVision, Miro, Photoshop, Illustrator, Indesign, After Effects, Animate, Audition, Premiere, Fuse, Maya, Blender, Unity, Audacity, GIMP, Inkscape, Google Docs, Google Slides, Google Sheets\n\nCoding:\nHTML5, CSS3, SASS, JavaScript, jQuery, p5.js, Web Sockets, Node.js, Express.js, Vue, React, Gatsby, Three.js, Backbone.js, Adapt eLearning, Apache Cordova, Foundation, Bootstrap, WordPress, PHP, Sitecore, Umbraco, C, C++, OpenGL, Python, Git, Visual Studio, and Arduino",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "steven-ray-simon",
+        "url": "https://www.linkedin.com/in/steven-ray-simon/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Wiley",
+      "position": "Marketing Developer",
+      "startDate": "2021-08-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Currently designing, developing, and maintaining WordPress websites at Wiley\n\nDesigning and developing custom Gutenberg Blocks using React\n\nConduct research and create personas to optimize websites for user experience and SEO\n\nGive presentations to stakeholders on design research and development plans",
+      "url": "https://www.linkedin.com/company/164549",
+      "location": "Remote"
+    },
+    {
+      "name": "Discount Tire",
+      "position": "Front End Web Developer",
+      "startDate": "2020-02-28",
+      "endDate": "2021-08-31",
+      "highlights": [],
+      "summary": "Supported Discount Tire's Learning & Development team as an eLearning Front End Web Designer and Developer\n\nDesigned and developed eLearning courses for tire technicians using the Adapt eLearning framework, consisting of Backbone.js, jQuery, Handlebars, LESS, and Bitbucket for version control\n\nDesigned and developed educational HTML5 games for eLearning courses using p5.js\n\nDesigned and developed educational web apps for the corporate intranet using React and Vue\n\nDeveloped custom tools and solutions for faster development of eLearning courses and intranet\n\nCreated custom illustrations and animations for eLearning courses",
+      "url": "https://www.linkedin.com/company/26067",
+      "location": "Scottsdale, Arizona"
+    },
+    {
+      "name": "Herschend Family Entertainment",
+      "position": "Marketing Technology Specialist",
+      "startDate": "2018-11-30",
+      "endDate": "2020-02-28",
+      "highlights": [],
+      "summary": "Designed and developed custom web pages and experiences for Herschend Family Entertainment property websites including Adventure Aquarium, Wild Adventures, and Harlem Globetrotters on the Sitecore platform\n\nDesigned and developed custom WordPress themes for Herschend Family Entertainment and their affiliates such as Shoebox Challenge, Leading with Love, and Silver Dollar City Foundation\n\nConducted research, performed user testing, and suggested best practices to improve user experiences on all Herschend Family Entertainment websites\n\nEdited and updated content on property websites",
+      "url": "https://www.linkedin.com/company/46544",
+      "location": "Peachtree Corners, Georgia"
+    },
+    {
+      "name": "GEICO",
+      "position": "UX/UI Design Intern",
+      "startDate": "2017-06-30",
+      "endDate": "2017-08-31",
+      "highlights": [],
+      "summary": "Supported GEICO's Digital Experience team as a User Experience and User Interface Designer\n\nDesigned and developed detailed wireframes, prototypes, and final visual designs for projects including websites, emails, and print\n\nLearned new tools specific for UX/UI design such as Adobe XD, Sketch, and InVision",
+      "url": "https://www.linkedin.com/company/157327",
+      "location": "Chevy Chase, Maryland"
+    },
+    {
+      "name": "Texas A&M Engineering Experiment Station (TEES)",
+      "position": "Web Designer",
+      "startDate": "2015-05-31",
+      "endDate": "2016-06-30",
+      "highlights": [],
+      "summary": "Designed and developed webpages for different programs within the College of Engineering website at Texas A&M University on the Umbraco platform\n\nEnsured consistent visual design and branding across Texas A&M Engineering Experiment Station websites\n\nDesigned a variety of WordPress themes for the Texas Engineering Experiment Station Centers that are consistent in design, structure, and function\n\nFacilitated graphic design projects such as brochures, booklets, and social media graphics",
+      "url": "https://www.linkedin.com/company/3761392",
+      "location": "College Station, Texas"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "University of Arizona Boot Camps",
+      "position": "Teaching Assistant",
+      "startDate": "2020-08-31",
+      "endDate": "2021-03-31",
+      "summary": "Taught user experience and user interface design and development concepts including:\n\nPorto-Personas and User Personas, User Research, Affinity Diagrams, Empathy Maps, User Interviews, User Insights, Problem Statements, Ideation, Storyboarding, User Flows, Wireframes, Prototypes, Usability Testing \n\nUI Grids, Principles and Elements of Design, UI Color and UI Fundamentals, Usability and Accessibility Heuristics, Information Architecture and Sitemaps, UI Systems and Navigation,\nInteraction Design and Micro Interactions, Responsive Web Design, Atomic Design for Mobile First, UI Best Practices, Templates and Layouts, UI Prototyping, UI Testing and A/B Testing\n\nHTML5, CSS3, JavaScript, jQuery, Bootstrap, Git and Github",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/28639017"
+    },
+    {
+      "organization": "MD Anderson Cancer Center",
+      "position": "Volunteer Floor Host",
+      "startDate": "2006-06-30",
+      "endDate": "2008-08-31",
+      "summary": "Volunteered as a floor host almost every summer during high school",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/164901"
+    }
+  ],
+  "education": [
+    {
+      "institution": "New York University",
+      "area": "Interactive Telecommunications (ITP)",
+      "studyType": "Master of Professional Studies",
+      "startDate": "2016-08-31",
+      "endDate": "2018-05-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Texas A&M University",
+      "area": "Visualization",
+      "studyType": "Bachelor of Science",
+      "startDate": "2010-08-31",
+      "endDate": "2014-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "QUT (Queensland University of Technology)",
+      "area": "Creative Industries",
+      "studyType": "Student Exchange Program",
+      "startDate": "2014-02-28",
+      "endDate": "2014-06-30",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Creative Suite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Graphic Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "FontLab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dreamweaver",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "InDesign",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Service",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Three.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Experience",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teamwork",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "p5.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Lightroom",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Maya",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "After Effects",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Film Studies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Animation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Motion Graphics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "InVision",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Physical Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sketch App",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Arduino",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Interaction Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Digital Illustration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Skeleton Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Visual Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Foundation Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Backbone.js",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

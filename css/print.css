@@ -31,11 +31,11 @@ body{
 	line-height: 1.4em;
 	word-spacing:1px;
 	letter-spacing:0.2px;
-	font-family: 'Montserrat-Light', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #777;
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222;
 	width: 100%;
 	height: 100%;
-    transition: none !important;
+  transition: none !important;
 }
 
 .hiddenTags{
@@ -47,24 +47,29 @@ body{
 }
 
 .resume_text, .resume_bullets, .resume_dates{
-  color: #777 !important;
-  font-family: 'Montserrat-Light', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #222 !important;
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 0.9em !important;
+}
+
+.resume_bullets{
+  margin-left: 15px;
 }
 
 a, a[href]{
-  color: #F60 !important;
+  color: #0057AD !important;
 }
 
 a[href]:after {
    content: none !important;
  }
 
-.skills_padding{
+ #skills_textTwo, #skills_textThree{
    margin-top: 15px;
  }
 
 .printInfo{
-  font-family:'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 0.8em;
   color: #555;
   line-height: 20px;
@@ -79,7 +84,14 @@ a[href]:after {
 
 .rawLogo{
   text-align: center;
-  font-family: 'Montserrat-Regular', 'Montserrat', 'Montserrat-Light', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.rawLogo a, .rawLogo a[href]{
+  color: #f60 !important;
+  font-size: 20px !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .wrap-logo, .logo{
@@ -97,22 +109,17 @@ a[href]:after {
   line-height: 26px;
 }
 
-.resume_dates
-{
-	margin-top: 0px;
-	font-family:'Montserrat-Light', 'Montserrat', 'Montserrat-Regular', 'Open Sans',  Helvetica, Arial, sans-serif;
+.resume_dates{
+	margin-top: 15px;
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
 	font-size: .9em;
-	color: #555;
+	color: #222;
 	width:100%;
-	line-height: 26px;
+	line-height: 24px;
 	font-style: italic;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.push_dates{
-	margin-top: 30px;
 }
 
 .resumePadTop {
@@ -121,41 +128,68 @@ a[href]:after {
 
 hr {
   margin-top: 0.7rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-width: 0;
-  border-top: 1px solid #777; }
+  border-top: 1px solid #222;
+}
 
-  h3{
-	font-family: 'Montserrat-Light', 'Montserrat', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #555;
+.row h3{
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #222;
+  font-size: 18px !important;
+}
+
+h3{
+  font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222 !important;
 	text-transform: lowercase;
-	font-size: 1.3em !important;
-	font-weight:100 !important;
-	-webkit-font-smoothing: antialiased; /*smooth the text*/
+	font-size: 1.2em !important;
+	-webkit-font-smoothing: antialiased; 
 	text-align:left;
      letter-spacing: 0px !important;
-      padding-top: 10px;
+      padding-top: 0px;
 }
 
 h2{
-	font-family: 'Montserrat-Light', 'Montserrat-Regular', 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+	 font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
 	text-transform: lowercase;
 	font-size: 0.9em !important;
-	font-weight:100 !important;
 	-webkit-font-smoothing: antialiased; /*smooth the text*/
 	text-align:center;
      letter-spacing: 0px !important;
     margin-top: -3px;
 }
-h1{
-	font-family: 'Montserrat-Regular', 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
+
+h1 a{
+	font-family:'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #F60;
 	text-transform: lowercase;
-	font-size: 1.4em !important;
 	-webkit-font-smoothing: antialiased; /*smooth the text*/
 	text-align:center;
-         letter-spacing: 0px !important;
+  letter-spacing: 0px !important;
+}
+
+.inside-wrapper p{
+  font-size: 16px;
+  color: #222;
+  padding: 0 50px;
+  margin: 20px 0px 0px 0px;
+  display: none;
+}
+
+header p{
+  font-size: 1em;
+  color: #222;
+}
+
+header{
+  padding: 0;
+}
+
+nav{
+  display: none;
 }
 
 .logo{
@@ -172,25 +206,12 @@ h1{
 img {
 	max-width: 500px;
 	padding-top: 15px;
-    height: auto;
+  height: auto;
 }
 
 @page {
 margin: 0.5cm;
 }
-
-/*Target safari print*/
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) {
-    
-    body{
-      font-size: 99%;
-    }
-
-    @page {
-        margin: 0cm;
-    }
-}}
 
 .breakPage{
   page-break-before: always;
@@ -246,9 +267,14 @@ iframe{
 }
 
 a:link, a:visited {
-  background: transparent; color:#777; text-decoration:none;
+  background: transparent; color:#222; text-decoration:none;
 }
-a:link[href^="http://"]:after, a:visited[href^="http://"]:after {content: " (" attr(href) ") "; font-size: 11px;}
-a[href^="http://"] {
-  color:#F60;
+
+footer{
+  display: none;
+}
+
+#print-resume{
+  margin-bottom: 30px !important;
+  display: none;
 }

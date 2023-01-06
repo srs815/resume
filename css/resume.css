@@ -55,6 +55,7 @@ body
 	font-style: italic;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	padding-top: 20px;
 }
 
 .push_dates{
@@ -84,6 +85,7 @@ body
 	line-height: 27px;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	margin-left: 15px;
 }
 
 #experience_title, #skills_title, #honors_title, #activities_title
@@ -107,19 +109,8 @@ body
     padding-bottom: 40px;
 }
 
-a {
-    color: #F60;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #F90;
-    transition: 0.4s;
-}
-
- a:active {
-    color: #F30;
-    transition: 0s;
+.rawLogo a{
+	color: white !important;
 }
 }
 
@@ -158,6 +149,7 @@ body
 	font-style: italic;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	padding-top: 20px;
 }
 
 .resume_text
@@ -183,6 +175,7 @@ body
 	line-height: 27px;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	margin-left: 15px;
 }
 
 #experience_title, #skills_title, #honors_title, #activities_title
@@ -206,24 +199,14 @@ body
     padding-bottom: 40px;
 }
 
-a {
-    color: #F60;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #F90;
-    transition: 0.4s;
-}
-
- a:active {
-    color: #F30;
-    transition: 0s;
-}
-
 }
 
 @media screen and (max-width: 650px) { /********************************************************************************** 650 */
+
+.work{
+	padding: 0 10px;
+	box-sizing: border-box;
+}
 
 .nav{
     margin-top: 0px;
@@ -264,6 +247,7 @@ body
 	font-style: italic;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	padding-top: 20px;
 }
 
 .resume_text
@@ -273,7 +257,7 @@ body
     font-weight: 300;
 	font-size: 1em;
 	color: #555;
-	width: 350px;
+	width: 100%;
 	line-height: 27px;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
@@ -285,10 +269,11 @@ body
     font-weight: 300;
 	font-size: 1em;
 	color: #555;
-	width: 350px;
+	width: 100%;
 	line-height: 27px;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	margin-left: 10px;
 }
 
 #resume_bulletsOne, #resume_bulletsTwo, #resume_bulletsThree
@@ -321,15 +306,6 @@ body
 	margin:0 auto;
 	padding: 0px 25px 0px 25px;
     padding-bottom: 40px;
-}
-a {
-    color: #F60;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #F90;
-    transition: 0.4s;
 }
 }
 
@@ -376,6 +352,7 @@ body
 	font-style: italic;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	padding-top: 20px;
 }
 
 .resume_text
@@ -401,6 +378,7 @@ body
 	line-height: 27px;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	margin-left: 15px;
 }
 
 #resume_bulletsOne, #resume_bulletsTwo, #resume_bulletsThree
@@ -433,15 +411,6 @@ body
 	margin:0 auto;
 	padding: 0px 25px 0px 25px;
     padding-bottom: 40px;
-}
-a {
-    color: #F60;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #F90;
-    transition: 0.4s;
 }
 }
 
@@ -488,6 +457,7 @@ body
 	font-style: italic;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	padding-top: 20px;
 }
 
 .resume_text
@@ -513,6 +483,7 @@ body
 	line-height: 27px;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+	margin-left: 15px;
 }
 
 #resume_bulletsOne, #resume_bulletsTwo, #resume_bulletsThree
@@ -546,13 +517,28 @@ body
 	padding: 0px 25px 0px 25px;
     padding-bottom: 40px;
 }
-a {
-    color: #F60;
-    text-decoration: none;
 }
 
-a:hover {
-    color: #F90;
-    transition: 0.4s;
+h3 {
+    font-family: 'Montserrat-Light', 'Montserrat', 'Open Sans', 'Montserrat-Regular', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #555;
+    text-transform: lowercase;
+    font-size: 1.3em !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    letter-spacing: 0px !important;
 }
+
+.fullWidth{
+	width: 100% !important;
+}
+
+.rawLogo, .rawLogo a{
+	color: white !important;
+}
+
+#print-resume{
+	margin-bottom: 30px !important;
 }
