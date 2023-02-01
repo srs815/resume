@@ -54,6 +54,7 @@
 
         <div class="row">
             <div class="sixteen columns fullWidth">
+                <h6 id="totalExperience">Experience Total: <span id="totalExperienceSum">X yr X mos</span></h6>
                 <h3>Experience</h3>
                 <hr>
                 <div class="work"></div>
@@ -326,20 +327,28 @@
                                 }
                         }
                         
-                        //        console.log('Start Month: ' + startMonth);
-                        //        console.log('Start Year: ' + startYear);
-                        //        console.log('End Month: ' + endMonth);
-                        //        console.log('End Year: ' + endYear);
-                        //        
-                        //        console.log('Current year is ' + currentYear + ' in month of ' + currentMonth);
+                        //Calculate total years worked
 
-                        console.log(totalMonths + ' and years is ' + totalYears);
+                        var getTotalYears = totalYears.pop();
+                        var getTotalMonths = totalMonths.pop();
+
+                        //console.log(totalMonths + ' and years is ' + totalYears);
                         
-                                var getTotalYears = calculateSum(totalYears);
-                                var getTotalMonths = calculateSum(totalMonths);
-                                var newGetTotalMonths = getTotalMonths/12;
+                        getTotalYears = calculateSum(totalYears);
+                        getTotalMonths = calculateSum(totalMonths);
 
-                                console.log(getTotalYears + ' yrs ' + getTotalMonths + ' mos');
+                        var newGetTotalMonths = getTotalMonths/12;
+
+                        newGetTotalMonths = Math.floor(newGetTotalMonths);
+                        getTotalYears = Math.round(getTotalYears);
+
+                        getTotalYears += newGetTotalMonths;
+
+                        for(var i = 0; i < newGetTotalMonths; i++){
+                                getTotalMonths -= 12;
+                        }
+
+                        $('#totalExperienceSum').text(getTotalYears + ' yrs ' + getTotalMonths + ' mos');
         
                 }
 
@@ -357,7 +366,7 @@
         
         // Set another completion function for the request above
         jqxhr.always(function() {
-                console.log( "second complete" );
+                //console.log( "second complete" );
         });
 
         //Convert string to html
