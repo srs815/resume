@@ -273,6 +273,7 @@
                         
                         const currentYear = new Date().getFullYear();
                         const currentMonth = new Date().getMonth()+1;
+                        console.log("Current month: "+currentMonth);
                         
                         const monthsLong = {
                         January: '1',
@@ -314,6 +315,7 @@
                                 totalMonths.push(endMonth[i] - startMonth[i]);
                                 
                                 totalMonths[i] = totalMonths[i]+1;
+                                console.log(totalMonths);
                                 
                                 if (totalMonths[i] <= 0){
                                         totalYears[i] = totalYears[i] - 1;
@@ -323,7 +325,15 @@
                                 if (totalYears[i] == 0){
                                         $('.total').eq(i).text(totalMonths[i] + " mos");
                                 } else{
-                                        $('.total').eq(i).text(totalYears[i] + " yr " + totalMonths[i] + " mos");
+                                        if(totalMonths[i] == 12){
+                                               $('.total').eq(i).text(totalYears[i] + 1 + " yrs "); 
+                                        } else{
+                                                if (totalYears[i] > 1){
+                                                        $('.total').eq(i).text(totalYears[i] + " yrs " + totalMonths[i] + " mos");  
+                                                } else{
+                                                        $('.total').eq(i).text(totalYears[i] + " yr " + totalMonths[i] + " mos"); 
+                                                }
+                                        }
                                 }
                         }
                         
