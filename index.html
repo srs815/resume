@@ -67,6 +67,13 @@
                     <div class="education"></div>
                 </div>
         </div>
+        <div class="row">
+                <div class="sixteen columns fullWidth">
+                    <h3>Certificates</h3>
+                    <hr>
+                    <div class="certificates"></div>
+                </div>
+        </div>
         <div class="row breakPage">
                 <div class="sixteen columns fullWidth">
                     <h3>Skills</h3>
@@ -84,7 +91,7 @@
 
 </div><!--resume-->
 
-<a href="#" title="Print" class="modal-exit-bottom" id="print-resume" onclick='window.print();return false;'>Print Resume</a>
+<a href="#" title="Print" class="modal-exit-bottom" id="print-resume">Print Resume</a>
 
 <footer>
         <div class="wrapper footer">
@@ -112,6 +119,10 @@
                 //Get education
                 var education = document.querySelector('.education');
                 var educationResult;
+
+                //Get certificates
+                var certificates = document.querySelector('.certificates');
+                var certificatesResult;
 
                 //Get skills
                 var skills = document.querySelector('.skills');
@@ -200,6 +211,35 @@
                         //Append
                         education.append(educationResult);
                 }//set schools
+
+                //Set Certificates
+                var certificateOpen = '<p class="resume_text skills_padding">';
+                var catchCertificates = "";
+
+                for(var cert = 0; cert < data.certificates.length; cert++){
+
+                        //Certificate
+                        var certificate = '<a href="'+ data.certificates[cert].url +'" title="'+ data.certificates[cert].name +'" target="_blank">'+ data.certificates[cert].name +'</a>';
+
+                        if(cert < data.certificates.length && cert > 0){
+                           catchCertificates += ',&nbsp';
+                        }
+
+                        catchCertificates += certificate;
+
+                        console.log(catchCertificates);
+
+
+                }//set certificates
+
+                var certificateClose = '</p>';
+
+                //Result
+                certificatesResult = certificateOpen + catchCertificates + certificateClose;
+                certificatesResult = stringToHTML(certificatesResult);
+
+                //Append
+                certificates.append(certificatesResult);
 
                 //Set Skills
                 var skillsSummary = data.basics.summary;
@@ -402,6 +442,14 @@
 
         //Date function
        document.getElementById('date').innerHTML = new Date().getFullYear();
+
+
+       //Print title change
+       $('#print-resume').click(function(){
+                $('title').text('stevensimon-resume');
+                window.print();
+                return false;
+       });
 
 </script>
 </body>

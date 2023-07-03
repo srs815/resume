@@ -74,13 +74,13 @@
   ],
   "volunteer": [
     {
-      "organization": "University of Arizona Boot Camps",
+      "organization": "University of Arizona Continuing and Professional Education",
       "position": "Teaching Assistant",
       "startDate": "2020-08-31",
       "endDate": "2021-03-31",
       "summary": "Taught user experience and user interface design and development concepts including:\n\nPorto-Personas and User Personas, User Research, Affinity Diagrams, Empathy Maps, User Interviews, User Insights, Problem Statements, Ideation, Storyboarding, User Flows, Wireframes, Prototypes, Usability Testing \n\nUI Grids, Principles and Elements of Design, UI Color and UI Fundamentals, Usability and Accessibility Heuristics, Information Architecture and Sitemaps, UI Systems and Navigation,\nInteraction Design and Micro Interactions, Responsive Web Design, Atomic Design for Mobile First, UI Best Practices, Templates and Layouts, UI Prototyping, UI Testing and A/B Testing\n\nHTML5, CSS3, JavaScript, jQuery, Bootstrap, Git and Github",
       "highlights": [],
-      "url": "https://www.linkedin.com/company/28639017"
+      "url": "https://www.linkedin.com/company/71639728"
     },
     {
       "organization": "MD Anderson Cancer Center",
@@ -122,26 +122,39 @@
     }
   ],
   "awards": [],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "Marketing Tools: Automation",
+      "issuer": "LinkedIn",
+      "startDate": "2023-06-30",
+      "url": "https://www.linkedin.com/learning/certificates/93c6bdba134f678b4db420d18f9bce0c8036124f9d19e1ad991a6e21dcccec6b"
+    },
+    {
+      "name": "WordPress: Developing Blocks with Gutenberg",
+      "issuer": "LinkedIn",
+      "startDate": "2023-06-30",
+      "url": "https://www.linkedin.com/learning/certificates/fd265805cc3fe29f849121d32fea740c20ec4bd49723d62cbc6306f9cd6369ae"
+    }
+  ],
   "publications": [],
   "skills": [
     {
+      "name": "Responsive Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Technologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bitbucket",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Photoshop",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Illustrator",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Adobe Creative Suite",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Graphic Design",
       "level": "",
       "keywords": []
     },
@@ -191,11 +204,6 @@
       "keywords": []
     },
     {
-      "name": "Adobe Illustrator",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "SASS",
       "level": "",
       "keywords": []
@@ -216,7 +224,7 @@
       "keywords": []
     },
     {
-      "name": "Adobe Photoshop",
+      "name": "Graphic Design",
       "level": "",
       "keywords": []
     },
@@ -276,6 +284,11 @@
       "keywords": []
     },
     {
+      "name": "Adobe Creative Suite",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "jQuery",
       "level": "",
       "keywords": []
@@ -312,6 +325,11 @@
     },
     {
       "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrator",
       "level": "",
       "keywords": []
     },

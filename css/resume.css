@@ -183,6 +183,11 @@ body
 	margin-top: 30px;
 }
 
+.skills_padding
+{
+	margin-top: 10px;
+}
+
 #skills_textTwo, #skills_textThree
 {
 	margin-top: 10px;
@@ -284,6 +289,11 @@ body
 #experience_title, #skills_title, #honors_title, #activities_title
 {
 	margin-top: 30px;
+}
+
+.skills_padding
+{
+	margin-top: 10px;
 }
 
 #skills_textTwo, #skills_textThree
@@ -391,6 +401,11 @@ body
 	margin-top: 30px;
 }
 
+.skills_padding
+{
+	margin-top: 10px;
+}
+
 #skills_textTwo, #skills_textThree
 {
 	margin-top: 10px;
@@ -494,6 +509,11 @@ body
 #experience_title, #skills_title, #honors_title, #activities_title
 {
 	margin-top: 30px;
+}
+
+.skills_padding
+{
+	margin-top: 10px;
 }
 
 #skills_textTwo, #skills_textThree
