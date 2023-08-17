@@ -134,6 +134,24 @@
       "issuer": "LinkedIn",
       "startDate": "2023-06-30",
       "url": "https://www.linkedin.com/learning/certificates/fd265805cc3fe29f849121d32fea740c20ec4bd49723d62cbc6306f9cd6369ae"
+    },
+    {
+      "name": "First Look: WordPress Full-Site Editing",
+      "issuer": "LinkedIn",
+      "startDate": "2023-07-31",
+      "url": "https://www.linkedin.com/learning/certificates/468b8d242cfab5268508e1245b550332d4328aa606b2d20bdd33f2c9bd503e19"
+    },
+    {
+      "name": "Building a Superstar Brand",
+      "issuer": "LinkedIn",
+      "startDate": "2023-08-31",
+      "url": "https://www.linkedin.com/learning/certificates/cc826ae21f3e11b22a273e0af6dfdc553e22c1450a103fdbcbfc5b512beb39c1"
+    },
+    {
+      "name": "Artificial Intelligence Foundations: Thinking Machines",
+      "issuer": "LinkedIn",
+      "startDate": "2023-08-31",
+      "url": "https://www.linkedin.com/learning/certificates/0b85e658b46facea8fcd7349dd2f52228732cde9703d886c19e2cb7bd9ea5cf3"
     }
   ],
   "publications": [],
@@ -159,21 +177,6 @@
       "keywords": []
     },
     {
-      "name": "FontLab",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Dreamweaver",
       "level": "",
       "keywords": []
@@ -190,21 +193,6 @@
     },
     {
       "name": "InDesign",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Customer Service",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Public Speaking",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SASS",
       "level": "",
       "keywords": []
     },
@@ -229,52 +217,12 @@
       "keywords": []
     },
     {
-      "name": "Teamwork",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "p5.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Lightroom",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "PHP",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Maya",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "After Effects",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Film Studies",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "User Interface Design",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Animation",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Design",
       "level": "",
       "keywords": []
     },
@@ -290,11 +238,6 @@
     },
     {
       "name": "jQuery",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Motion Graphics",
       "level": "",
       "keywords": []
     },
@@ -334,11 +277,6 @@
       "keywords": []
     },
     {
-      "name": "Cascading Style Sheets (CSS)",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Arduino",
       "level": "",
       "keywords": []
@@ -354,16 +292,6 @@
       "keywords": []
     },
     {
-      "name": "Digital Illustration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Skeleton Framework",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Visual Design",
       "level": "",
       "keywords": []
@@ -375,6 +303,96 @@
     },
     {
       "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "FontLab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Service",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teamwork",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "p5.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Lightroom",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Maya",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Film Studies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Animation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Motion Graphics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Digital Illustration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Skeleton Framework",
       "level": "",
       "keywords": []
     },
