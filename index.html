@@ -178,23 +178,24 @@
                                                 '</span>–<span class="endMonth">' + splitEndDateMonth +
                                                 '</span> <span class="endYear">' + splitEndDateYear +
                                                 '</span> &#x2022; <span class="total">X yr X mos</span></p>';
-                                // if (item === 3) {
-                                //         var dates =
-                                //                 '<p class="resume_dates breakPage"><span class="startMonth">' +
-                                //                 getMonthName(splitStartDate[1]) +
-                                //                 '</span> <span class="startYear">' + splitStartDate[0] +
-                                //                 '</span>–<span class="endMonth">' + splitEndDateMonth +
-                                //                 '</span> <span class="endYear">' + splitEndDateYear +
-                                //                 '</span> &#x2022; <span class="total">X yr X mos</span></p>';
-                                // } else {
-                                //         var dates =
-                                //                 '<p class="resume_dates"><span class="startMonth">' +
-                                //                 getMonthName(splitStartDate[1]) +
-                                //                 '</span> <span class="startYear">' + splitStartDate[0] +
-                                //                 '</span>–<span class="endMonth">' + splitEndDateMonth +
-                                //                 '</span> <span class="endYear">' + splitEndDateYear +
-                                //                 '</span> &#x2022; <span class="total">X yr X mos</span></p>';
-                                // }
+                                //This creates a break for print on the work experience with first item starting at 0
+                                if (item === 3) {
+                                        var dates =
+                                                '<p class="resume_dates breakPage"><span class="startMonth">' +
+                                                getMonthName(splitStartDate[1]) +
+                                                '</span> <span class="startYear">' + splitStartDate[0] +
+                                                '</span>–<span class="endMonth">' + splitEndDateMonth +
+                                                '</span> <span class="endYear">' + splitEndDateYear +
+                                                '</span> &#x2022; <span class="total">X yr X mos</span></p>';
+                                } else {
+                                        var dates =
+                                                '<p class="resume_dates"><span class="startMonth">' +
+                                                getMonthName(splitStartDate[1]) +
+                                                '</span> <span class="startYear">' + splitStartDate[0] +
+                                                '</span>–<span class="endMonth">' + splitEndDateMonth +
+                                                '</span> <span class="endYear">' + splitEndDateYear +
+                                                '</span> &#x2022; <span class="total">X yr X mos</span></p>';
+                                }
                                 //Position
                                 var position = '<p class="resume_text"><strong>' + data.work[item]
                                         .position + '</strong></p>';
