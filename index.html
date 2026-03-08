@@ -28,7 +28,13 @@
         </noscript>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+        <script>
+                fetch('https://raw.githubusercontent.com/srs815/portfolio/main/_data/intro.json')
+                        .then(res => res.json())
+                        .then(data => {
+                        document.querySelector('.inside-wrapper p').textContent = data.text;
+                });
+        </script>
 </head>
 
 <body>
@@ -44,8 +50,7 @@
                                                         href="mailto:stevenraysimon@gmail.com">stevenraysimon@gmail.com</a>
                                         </p>
                                         <div class="inside-wrapper">
-                                                <p>Hey there! I'm a creative designer and developer, rocking a holistic
-                                                        approach, flexibility, and team spirit!</p>
+                                                <p></p>
                                         </div><!--inside wrapper-->
                                         <nav>
                                                 <a href="tel:3463730801" title="phone" target="_top"
