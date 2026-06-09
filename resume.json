@@ -22,10 +22,20 @@
   },
   "work": [
     {
+      "name": "American Public University System",
+      "position": "eLearning 3D Multimedia Developer",
+      "startDate": "2023-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Automated conversion of proprietary ELF content into responsive Bootstrap components using Node.js and RegEx\n\nBuilt internal tools to standardize and accelerate course production workflows\n\nDeveloped reusable interactive components (hotspots, expandable content panels, and media modules), educational games, and video-based learning experiences, with 3D asset optimization in Blender as needed\n\nBatch-processed and modernized legacy course content for mobile and accessibility compliance\n\nCollaborated with instructional designers to transform static materials into interactive learning\n\nReduced manual markup and improved development consistency across courses",
+      "url": "https://www.linkedin.com/school/american-public-university-system/",
+      "location": "Remote"
+    },
+    {
       "name": "Wiley",
       "position": "Marketing Developer",
       "startDate": "2021-08-31",
-      "endDate": "",
+      "endDate": "2023-11-30",
       "highlights": [],
       "summary": "Architect and develop custom WordPress solutions, including React-based Gutenberg Blocks\n\nDesigned conversion-focused landing frameworks informed by UX research and A/B testing\n\nBuilt interactive Chart.js Gutenberg Blocks to replace static data visuals\n\nLed SEO-driven redesigns of degree program sites to improve engagement and performance\n\nManaged cloud infrastructure and experimentation environments (AWS, Pantheon, Azure, Cloudflare)\n\nPresented research insights and technical roadmaps to cross-functional stakeholders",
       "url": "https://www.linkedin.com/company/164549",
