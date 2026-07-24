@@ -6,7 +6,7 @@
     "image": "",
     "email": "stevenraysimon@gmail.com",
     "phone": "",
-    "url": "",
+    "url": "https://srs815.github.io/portfolio",
     "summary": "I am a designer and technologist that strives to create beautiful and delightful experiences across a variety of media and platforms. My experience includes designing and developing web, digital, and physical technologies that trigger emotion through an invitation to interact. My skills include:\n\nInteraction Design, UX Research, UI Design, Wireframing, Visual Communication Design, Responsive Web Design, Motion Design, Visual Design, Physical Computing, Rapid Prototyping, Frontend Development, Scripting\n\nUser Research: \nA/B Testing, Affinity Diagramming, Heuristic Evaluation, Personas, Storyboarding, Site mapping, User Journey Mapping, Usability Testing, Wireframing, Competitive Analysis\n\nDesign:\nXD, Figma, Sketch, InVision, Miro, Photoshop, Illustrator, Indesign, After Effects, Animate, Audition, Premiere, Fuse, Maya, Blender, Unity, Audacity, GIMP, Inkscape, Google Docs, Google Slides, Google Sheets\n\nCoding:\nHTML5, CSS3, SASS, JavaScript, jQuery, p5.js, Web Sockets, Node.js, Express.js, Vue, React, Gatsby, Three.js, Backbone.js, Adapt eLearning, Apache Cordova, Foundation, Bootstrap, WordPress, PHP, Sitecore, Umbraco, Azure, C, C++, OpenGL, Python, Git, Visual Studio, and Arduino",
     "location": {
       "countryCode": "US",
@@ -84,13 +84,13 @@
   ],
   "volunteer": [
     {
-      "organization": "School of Visual Arts",
-      "position": "Caricature Boot Camp Attendee",
-      "startDate": "2023-06-30",
-      "endDate": "2023-08-31",
-      "summary": "Completed an online caricature illustration course in the summer of 2023, mastering drawing faces, capturing expressions, likeness, and exaggeration",
+      "organization": "Grand Canyon University",
+      "position": "Adjunct Professor, Interface Design II: Web Design",
+      "startDate": "2026-03-30",
+      "endDate": "2026-05-31",
+      "summary": "Delivered online instruction in user-centered web design, teaching students UX research methods, responsive design, accessibility, information architecture, design systems, iconography, color theory, typography, wireframing, prototyping, and modern web interface design while providing project feedback and mentorship throughout the course.",
       "highlights": [],
-      "url": "https://www.linkedin.com/company/14673"
+      "url": "https://www.linkedin.com/school/grand-canyon-university/"
     },
     {
       "organization": "University of Arizona Continuing and Professional Education",
